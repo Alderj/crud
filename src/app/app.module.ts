@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { ProductReadComponent } from './cpmponents/product/product-read/product-read.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { FormsModule } from '@angular/forms';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent    
+    ProductCreateComponent,
+    ProductReadComponent    
   ],
   imports: [
     BrowserModule,
