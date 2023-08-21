@@ -10,7 +10,7 @@ export class ProductService {
 
   showMessage(msg: string): void{
     console.log(msg)
-    this.snackBar.open(msg, '', {
+    this.snackBar.open(msg, 'Fechar', {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top"
