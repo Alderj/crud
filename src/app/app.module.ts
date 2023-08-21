@@ -19,6 +19,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -36,7 +40,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     MatToolbarModule,MatSidenavModule,
     MatListModule,MatCardModule,MatButtonModule,
-    MatSnackBarModule,HttpClientModule
+    MatSnackBarModule,HttpClientModule,
+    MatFormFieldModule, MatInputModule, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
